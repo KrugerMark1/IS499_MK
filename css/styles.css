@@ -11114,6 +11114,8 @@ body {
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  display: flex;
+  align-items: center;
 }
 .about-section p {
   margin-bottom: 5rem;
