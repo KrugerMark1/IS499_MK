@@ -48,6 +48,25 @@ window.addEventListener('DOMContentLoaded', event => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
             }
+    
+// Function to show the project image in a modal
+function showProjectImage(imageId) {
+    var modal = document.getElementById('myModal');
+    var modalImage = document.getElementById('modal-image');
+
+    modalImage.src = document.getElementById(imageId).src;
+    modal.style.display = 'block';
+
+    modal.onclick = function () {
+        modal.style.display = 'none';
+    };
+}
+
+// Function to close the modal
+function closeModal() {
+    var modal = document.getElementById('myModal');
+    modal.style.display = 'none';
+}
         });
     });
 
