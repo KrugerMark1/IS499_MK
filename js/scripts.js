@@ -51,23 +51,18 @@ window.addEventListener('DOMContentLoaded', event => {
     
         });
     });
-    
-// Function to show the project image in a modal
+
 function showProjectImage(imageId) {
-    var modal = document.getElementById('myModal');
+    var modal = new bootstrap.Modal(document.getElementById('myModal'));
     var modalImage = document.getElementById('modal-image');
 
     modalImage.src = document.getElementById(imageId).src;
-    modal.style.display = 'block';
-
-    modal.onclick = function () {
-        modal.style.display = 'none';
-    };
+    modal.show();
 }
 
-// Function to close the modal
 function closeModal() {
-    var modal = document.getElementById('myModal');
-    modal.style.display = 'none';
+    var modal = new bootstrap.Modal(document.getElementById('myModal'));
+    modal.hide();
 }
+    
 });
