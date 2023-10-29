@@ -49,6 +49,9 @@ window.addEventListener('DOMContentLoaded', event => {
                 navbarToggler.click();
             }
     
+        });
+    });
+    
 // Function to show the project image in a modal
 function showProjectImage(imageId) {
     var modal = document.getElementById('myModal');
@@ -67,7 +70,4 @@ function closeModal() {
     var modal = document.getElementById('myModal');
     modal.style.display = 'none';
 }
-        });
-    });
-
 });
