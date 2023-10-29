@@ -8302,8 +8302,9 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    --bs-bg-opacity: 1;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(var(--bs-light-rgb), var(--bs-bg-opacity)));
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 }
 
 .bg-dark {
