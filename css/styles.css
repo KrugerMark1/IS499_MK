@@ -11121,6 +11121,10 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  min-height: 100vh;          
 }
 .projects-section .featured-text {
   padding: 2rem;
