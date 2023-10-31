@@ -11137,13 +11137,6 @@ body {
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
-  }
-  .project-item {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  text-align: center; /* Center text for any child text elements */
-  /* Add other styles such as padding, margins as needed */
 
 }
 
