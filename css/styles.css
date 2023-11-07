@@ -11123,6 +11123,10 @@ body {
   min-height: 100vh;          
 }
 
+.section-heading {
+    margin-bottom: 5rem;
+}
+
 #my-projects-title {
   margin-bottom: 20px; 
 
