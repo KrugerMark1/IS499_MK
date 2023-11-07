@@ -11122,6 +11122,12 @@ body {
   align-items: center;        
   min-height: 100vh;          
 }
+
+#my-projects-title {
+  margin-bottom: 20px; 
+
+}
+
 .projects-section .featured-text {
   padding: 5rem;
 }
