@@ -11058,7 +11058,8 @@ body {
   border: 1px solid red;
 }
 
-.project .btn, .modal-footer .btn {
+#exampleModal .btn,
+#project2Modal .btn {
     padding: 1.25rem 2rem;
 }
 
