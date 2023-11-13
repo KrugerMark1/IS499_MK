@@ -11058,6 +11058,10 @@ body {
   border: 1px solid red;
 }
 
+.project .btn, .modal-footer .btn {
+    padding: 1.25rem 2rem;
+}
+
 .masthead {
   position: relative;
   width: 100%;
