@@ -11133,6 +11133,13 @@ body {
   min-height: 100vh;          
 }
 
+.project-item p {
+    max-width: 600px; /* or your preferred width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .section-heading {
     margin-bottom: 3rem;
 }
