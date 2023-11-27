@@ -11134,7 +11134,7 @@ body {
 }
 
 .project-item p {
-    max-width: 600px; /* or your preferred width */
+    max-width: 800px; 
     margin-left: auto;
     margin-right: auto;
 }
