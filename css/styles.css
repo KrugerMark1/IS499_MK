@@ -11114,7 +11114,6 @@ body {
     max-width: 30rem;
     font-size: 1.25rem;
   }
-}
 
 .resume-section .container {
     text-align: center;
@@ -11123,6 +11122,7 @@ body {
 
 .resume-section {
   padding-top: 10rem;
+  padding-bottom: 0';
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
