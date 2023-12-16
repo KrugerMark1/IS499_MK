@@ -11122,6 +11122,7 @@ body {
 
 .resume-section {
   padding-top: 10rem;
+  padding-bottom: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
