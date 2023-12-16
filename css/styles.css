@@ -11125,12 +11125,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
-  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-  display: flex;              
-  justify-content: center;    
-  align-items: center;        
-  min-height: 100vh;          
+  padding: 10rem 0;     
 }
 
 .project-item p {
